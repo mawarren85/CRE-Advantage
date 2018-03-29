@@ -16,6 +16,8 @@
 <li>Google Places/Maps API</li>
 </ul>
 
+# Video 
+https://www.youtube.com/watch?v=nLTWNTGBmPg
 
 # Wireframe
 
