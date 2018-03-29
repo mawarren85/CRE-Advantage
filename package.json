@@ -1,6 +1,6 @@
 {
   "name": "CRE-Advantage",
-  "version": "1.0.0",
+  "version": "8.8.0",
   "description": "<p>CRE Advantage is a full-stack mobile responsive application for Commercial Real Estate Brokers. The application gives Brokers an advantage in the market by helping them to keep track of property information, property notes, daily and weekly tasks and property locations through Google Maps API.</p>",
   "main": "index.js",
   "directories": {
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-    "start": "babel-node client/src/main.js",
+    "start": "node client/src/main.js",
     "build": "node build/build.js"
   },
   "repository": {

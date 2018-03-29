@@ -1,12 +1,12 @@
 {
   "name": "client",
-  "version": "1.0.0",
+  "version": "8.8.0",
   "description": "A Vue.js project",
   "author": "Paige Throckmorton <path4942@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-    "start": "babel-node client/src/main.js",
+    "start": "node client/src/main.js",
     "build": "node build/build.js"
   },
   "dependencies": {
