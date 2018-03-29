@@ -8,9 +8,8 @@
   },
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-    "start": "node client/src/main.js",
-    "build": "node build/build.js",
-    "postinstall": "npm install"
+    "start": "babel-node client/src/main.js",
+    "build": "node build/build.js"
   },
   "repository": {
     "type": "git",
