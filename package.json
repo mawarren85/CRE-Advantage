@@ -6,11 +6,11 @@
   "directories": {
     "doc": "docs"
   },
-    "scripts": {
-      "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-      "start": "node client/src/main.js",
-      "build": "node build/build.js"
-    },
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "node client/src/main.js",
+    "build": "node build/build.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/paige-throck/CRE-Advantage.git"
@@ -24,6 +24,7 @@
   "homepage": "https://github.com/paige-throck/CRE-Advantage#readme",
   "dependencies": {
     "axios": "^0.18.0",
+    "babel-loader": "^7.1.4",
     "bcrypt": "^1.0.3",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.2",
