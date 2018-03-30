@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "node client/config/index.js",
-    "build": "node build/build.js"
+    "build": "node client/build/build.js"
   },
   "repository": {
     "type": "git",
