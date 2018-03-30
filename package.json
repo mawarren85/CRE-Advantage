@@ -45,6 +45,7 @@
     "moment": "^2.21.0",
     "morgan": "^1.9.0",
     "pg": "^7.4.1",
+    "serve-static": "^1.13.2",
     "vue": "^2.5.16",
     "vue-loader": "^14.2.2",
     "vue-router": "^3.0.1",
